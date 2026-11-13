@@ -1,0 +1,4 @@
+interface:
+  display_name: "红蓝像素设计"
+  short_description: "沿用Mandy公开课的巨字与像素风格，制作海报、直播封面、课程长图和PPT"
+  default_prompt: "用 $red-blue-pixel-design，按这次内容和尺寸制作红蓝像素风的海报或PPT。"

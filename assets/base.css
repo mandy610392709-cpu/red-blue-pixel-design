@@ -1,0 +1,50 @@
+/* 共用字体/色板与排字原语。按实际任务另写构图；复制时连同fonts目录。 */
+@font-face {
+  font-family: "Mandy Noto Heavy";
+  src: url("fonts/NotoSansHans-Black.otf") format("opentype");
+  font-weight: 900;
+  font-display: block;
+}
+@font-face {
+  font-family: "Mandy Noto Body";
+  src: url("fonts/NotoSansHans-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-display: block;
+}
+:root {
+  --rb-navy: #152644;
+  --rb-pink: #FE5D91;
+  --rb-ice: #BBDCF6;
+  --rb-cream: #F5F4EE;
+  --rb-yellow: #FFD43B;
+  --rb-muted: #536580;
+  --rb-heavy: "Mandy Noto Heavy", "Noto Sans S Chinese Black", sans-serif;
+  --rb-body: "Mandy Noto Body", "Noto Sans S Chinese Regular", sans-serif;
+}
+.rb-canvas {
+  position: relative;
+  isolation: isolate;
+  box-sizing: border-box;
+  background: var(--rb-cream);
+  color: var(--rb-navy);
+  font-family: var(--rb-body);
+}
+.rb-canvas *, .rb-canvas *::before, .rb-canvas *::after { box-sizing: border-box; }
+.rb-canvas h1, .rb-canvas h2, .rb-canvas h3, .rb-canvas p { margin: 0; }
+.rb-heavy {
+  font-family: var(--rb-heavy);
+  font-weight: 900;
+  font-synthesis: none;
+  font-kerning: normal;
+  line-height: 1.08;
+  line-break: strict;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+.rb-body { font-family: var(--rb-body); font-weight: 400; line-height: 1.4; }
+.rb-navy { background: var(--rb-navy); color: var(--rb-cream); }
+.rb-ice { background: var(--rb-ice); color: var(--rb-navy); }
+.rb-pink { background: var(--rb-pink); color: var(--rb-navy); }
+.rb-cream { background: var(--rb-cream); color: var(--rb-navy); }
+.rb-rule { height: 1px; border: 0; background: currentColor; }
+.rb-pixel { image-rendering: pixelated; object-fit: contain; }

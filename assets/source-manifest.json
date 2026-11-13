@@ -1,0 +1,77 @@
+{
+  "created": "2026-11-07",
+  "scope": "2026-11-13 经Mandy明确授权公开分享；照片与历史课程内容仅供视觉风格参考。",
+  "files": [
+    {
+      "file": "references/approved-poster-hero.png",
+      "source": "AI课程首屏-巨字像素-v5.png",
+      "purpose": "本人认可的海报首屏视觉锚点",
+      "sha256": "6ed128ea169a644d6f5806bd87857fff2bb555717db452596dc16c7ffec73850",
+      "bytes": 1825032
+    },
+    {
+      "file": "references/approved-ppt-opening.jpg",
+      "source": "AI公开课-前三页测试-预览.jpg",
+      "purpose": "本人认可的PPT前三页测试预览",
+      "sha256": "bc4f0fbd556c9b9bfaeddea08a40aadaab35d668e2e7378def516fbb6638004b",
+      "bytes": 285246
+    },
+    {
+      "file": "references/approved-ppt-opening.pptx",
+      "source": "AI公开课-第一课-前三页测试-v1.pptx",
+      "purpose": "同一认可测试稿的原生三页参考，含历史文案",
+      "sha256": "302345f9035da8f7c61ed89911a042cff82ed13d27a78b57bc4b1fdc64dcf302",
+      "bytes": 30791,
+      "publication_note": "仅清理备注中的内部文档链接、版本号和块ID；幻灯片内容与布局不变。"
+    },
+    {
+      "file": "references/schedule.jpg",
+      "source": "AI课程-四周课程表-横屏-v1.jpg",
+      "purpose": "横屏信息密度与四栏版式参考",
+      "sha256": "cd8dd74f5dc01881ca59d4b2cb0a5db9b16230004715b943593f35ed6e930676",
+      "bytes": 1060652
+    },
+    {
+      "file": "references/ppt-layouts.jpg",
+      "source": "final-contact-1-1.jpg",
+      "purpose": "完整版扩展页型参考，不等于每页单独确认",
+      "sha256": "e958d1d8d91b7a79a1a3f21bc553375d1cdd1f17386fd8ebed74bc040864b033",
+      "bytes": 475873
+    },
+    {
+      "file": "pixel-butterfly-hollow.svg",
+      "source": "像素蝴蝶-PPT同款-镂空粉色-透明.svg",
+      "purpose": "按本人后续反馈导出的空心单色蝴蝶SVG",
+      "sha256": "684e38e19916dd15af755780761faad695fa0eaaee78b5c2062240149b910201",
+      "bytes": 6037
+    },
+    {
+      "file": "pixel-butterfly-hollow.png",
+      "source": "像素蝴蝶-PPT同款-镂空粉色-透明.png",
+      "purpose": "同一空心蝴蝶透明PNG",
+      "sha256": "8d63aef2ce9f1af4b11b86889d6c74f1a1077134d5b2dc49fb255e9cebdba39e",
+      "bytes": 6194
+    },
+    {
+      "file": "fonts/NotoSansHans-Black.otf",
+      "source": "NotoSansHans-Black.otf",
+      "purpose": "原课件字体，按原名保留",
+      "sha256": "d6ef258892def01cf66100e6202087e432c4abf78deb636bfc1e309d2482f9d2",
+      "bytes": 8785316
+    },
+    {
+      "file": "fonts/NotoSansHans-Regular.otf",
+      "source": "NotoSansHans-Regular.otf",
+      "purpose": "原课件字体，按原名保留",
+      "sha256": "7db3c634bbd0301b3082a80ffcac2f422e8ef9ce0730f8b279c3e8f756598f68",
+      "bytes": 8364644
+    },
+    {
+      "file": "fonts/LICENSE-APACHE-2.0.txt",
+      "source": "LICENSE.APACHE",
+      "purpose": "字体name表声明的Apache 2.0标准许可全文",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "bytes": 10174
+    }
+  ]
+}

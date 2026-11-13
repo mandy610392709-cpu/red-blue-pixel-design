@@ -1,0 +1,28 @@
+{
+  "name": "Mandy红蓝像素设计",
+  "palette": {
+    "navy": "#152644",
+    "pink": "#FE5D91",
+    "ice": "#BBDCF6",
+    "cream": "#F5F4EE",
+    "yellow": "#FFD43B",
+    "muted": "#536580"
+  },
+  "typography": {
+    "heavy": {"family": "Noto Sans S Chinese Black", "webFamily": "Mandy Noto Heavy", "file": "fonts/NotoSansHans-Black.otf"},
+    "body": {"family": "Noto Sans S Chinese Regular", "webFamily": "Mandy Noto Body", "file": "fonts/NotoSansHans-Regular.otf"},
+    "optionalSystemNumerals": "Impact",
+    "numeralsFallback": "Noto Sans S Chinese Black"
+  },
+  "canvas": {
+    "liveCover": {"width": 1080, "height": 1440, "aspect": "3:4"},
+    "vertical": {"width": 1080, "height": 1920, "aspect": "9:16"},
+    "horizontal": {"width": 1920, "height": 1080, "aspect": "16:9"},
+    "square": {"width": 1080, "height": 1080, "aspect": "1:1"},
+    "slidesLogical": {"width": 1280, "height": 720, "aspect": "16:9", "safeInset": 48}
+  },
+  "components": {
+    "butterfly": {"svg": "pixel-butterfly-hollow.svg", "png": "pixel-butterfly-hollow.png", "viewBox": [0, 0, 1024, 1024], "visibleBounds": [128, 160, 768, 704], "transparentInterior": true}
+  },
+  "notes": "尺度为设计参考；具体内容、主题、尺寸和本次用户要求优先。标题、日期、报价、权益和人物不从旧样本继承。"
+}
